@@ -2,6 +2,19 @@
     width:100%;
 }
 
+.header{
+    background-color: black;
+    text-align:center;
+    height: 200px;
+    
+}
+.bg-black{
+    background-color: black;
+    margin: auto;
+}
+.border-2{
+    border-width:2px !important;
+}
 .container.custom-container-width {
     max-width: 1630px;       // 最後內容寬會是 980px
 }
