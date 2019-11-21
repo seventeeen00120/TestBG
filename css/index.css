@@ -1,3 +1,7 @@
+*{
+  font-family:"STSong";
+}
+
 .header img{
     width:100%;
 }
@@ -14,6 +18,33 @@
 }
 .border-2{
     border-width:2px !important;
+}
+
+.breadcrumb-item-font{
+    color:white;
+    font-family:"Microsoft YaHei";
+    text-decoration:none;
+}
+
+.breadcrumb-item-font:hover{
+    color:blueviolet;
+    font-family:"Microsoft YaHei";
+    font-weight: bold;
+    text-decoration:none;
+    border-style: solid;
+    padding:11px; 
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    border-bottom-color:blueviolet;
+}
+
+.div-title{
+    border-style: solid;
+    border-color: darkblue;
+    border-left:0;
+    border-right:0;
+    border-bottom: 0;
 }
 .container.custom-container-width {
     max-width: 1630px;       // 最後內容寬會是 980px
